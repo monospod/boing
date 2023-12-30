@@ -1,0 +1,12 @@
+("quicklisp" .
+ (:class qlot/source/dist:source-dist
+  :initargs (:distribution "https://beta.quicklisp.org/dist/quicklisp.txt" :%version :latest)
+  :version "2023-10-21"))
+("org.borodust.bodge" .
+ (:class qlot/source/dist:source-dist
+  :initargs (:distribution "https://bodge.borodust.org/dist/org.borodust.bodge.txt" :%version :latest)
+  :version "20201008075703"))
+("trivial-gamekit" .
+ (:class qlot/source/git:source-git
+  :initargs (:remote-url "https://github.com/borodust/trivial-gamekit.git")
+  :version "git-2555cedca7c24b155feb0cb8daa79f142d062e16"))
